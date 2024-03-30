@@ -86,7 +86,7 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: ksushkoman/taski_backend:latest
-    deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: 
       # Дождёмся билда всех образов Taski
